@@ -8,6 +8,8 @@ int size,choice,ele;
 struct stack{
     int arr[100];
     int top;
+    // undefine variable rear.
+    int rear;
 
 }st;
 
