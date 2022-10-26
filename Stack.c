@@ -22,7 +22,8 @@ void push(int element)
     {
         st.top--;
         printf("\nEnter a Value ");
-        scanf("%s",&ele);
+        // ele is a int type variable %s is a string type.
+        scanf("%d",&ele);
         st.arr[st.top]=ele;
     }
 }
