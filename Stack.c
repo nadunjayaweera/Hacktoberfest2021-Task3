@@ -78,7 +78,8 @@ int main()
 
     do{
         printf("\nEnter Your Choice  ");
-        scanf("%c",&choice);
+        // choice variable is a integer type variable.
+        scanf("%d",&choice);
         switch(choice)
         {
         case 1:
