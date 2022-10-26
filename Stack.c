@@ -57,7 +57,8 @@ void display()
     if((st.top)>=0)
     {
         printf("\n\nElements in the Stack");
-        for(i=st.top;i>=0;i++)
+        // undefine variable.
+        for(int i=st.top;i>=0;i++)
         {
             printf("\n%d",st.arr[i]);
         }
